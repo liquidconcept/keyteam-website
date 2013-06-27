@@ -1,10 +1,10 @@
 # encoding: utf-8
 set :application, 'website'
-set :domain,      'www.keyteam.ch'
+set :domain,      'keyteam.ch'
 set :server_name, 'ruby-rack-2.liquid-concept.ch'
 
 set :scm,         :git
-set :repository,  '.'
+set :repository,  'git@github.com:liquidconcept/keyteam-website.git'
 set :branch,      'production'
 
 ssh_options[:forward_agent] = true
