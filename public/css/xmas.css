@@ -1,0 +1,38 @@
+#xmas {
+	background: #fff url(../img/xmas-bg.png) repeat center center;
+}
+
+#header {
+	background-image: url(../img/xmas-nav.png);
+}
+
+#title {
+	background-image: url(../img/logo-alpha.png);
+}
+
+#main {
+	background: #fff url(../img/xmas-page.png) no-repeat right top;
+}
+
+#xmas-wishes h2{
+	padding: 4em 0 3em 0;
+	text-align: center;
+	font-family: Georgia, fantasy;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 2.5em;
+	color: #00426f;
+}
+
+#main p {
+	padding: 4em 20px 0 0;
+	text-align: right;
+}
+#main a {
+	color: #729fcf;
+
+}
+
+#footer {
+	background-image: url(../img/xmas-footer.png);
+}

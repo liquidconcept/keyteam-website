@@ -1,0 +1,15 @@
+Contact
+_______
+
+Coordonnées :
+=============
+Civilité : <%= params[:'message_request'][:title] %>
+Nom : <%= params[:message_request][:last_name] %>
+Prénom : <%= params[:message_request][:first_name] %>
+Entreprise : <%= params[:message_request][:company] %>
+Numéro de téléphone : <%= params[:message_request][:phone] %>
+Email : <%= params[:message_request][:email] %>
+
+Message:
+========
+<%= params[:message_request][:message] %>
